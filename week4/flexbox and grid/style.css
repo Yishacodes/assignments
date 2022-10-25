@@ -1,0 +1,89 @@
+body {
+    height: 100%;
+    width: 100%;
+     box-sizing: border-box;
+  color:hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 15px;
+  }
+  
+  @media (max-width:1440px) and (min-width:375px) {
+  .cars{
+      display: flex;
+      flex-direction: row;
+      width: 600px;
+      margin: auto;
+      height: 550px;
+      justify-content: center;
+      align-items: center;
+  
+  
+  }
+  .sedan{width:100% ;
+  height: 60%;
+      background-image: url("./icon-sedans.svg");
+      background-position: 25px 25px;
+      background-repeat: no-repeat;
+  background-color: hsl(31,77%,52%);
+  background-size: 45px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 30px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  }
+  
+  .suv{width: 100%;
+      height: 60%;
+  background-color: hsl(184, 100%, 22%);
+  background-image: url("./icon-suvs.svg");
+  background-repeat: no-repeat;
+  background-position: 25px 25px;
+  background-size: 45px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 30px;
+  }
+  .luxury{width: 100%;
+      height: 60%;
+  background-color: hsl(179,100%,13%);
+  background-image: url("./icon-luxury.svg");
+  background-repeat: no-repeat;
+  background-position: 25px 25px;
+  background-size:45px ;
+  text-align: left;
+  padding-left: 25px;
+  padding-right: 35px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  
+  }
+  p{margin-bottom: 23px;
+      color: hsla(0, 0%, 100%, 0.75);
+      font-size: 13px;
+      font-family: 'Lexend Deca', sans-serif;
+  }
+  h3{padding-top: 60px;
+      color:hsl(0, 0%, 95%);
+      
+  }
+  button{margin-top: 25px;
+      margin-left:10px;
+      background-color: inherit;
+      color:hsl(0, 0%, 95%);
+      border-radius: 20px;
+      border: 1px solid hsl(0, 0%, 95%) ;
+      width:110px;
+      height: 35px;
+  }
+  button:hover{
+      cursor: pointer;
+     background-color: rgb(128, 128, 24);
+  }
+  a{display: block;
+      text-decoration: none;
+      font-size: 20px;
+      text-align: center;
+      color: rgb(163, 15, 47);
+  }
+  }
